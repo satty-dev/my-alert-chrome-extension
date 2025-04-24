@@ -40,12 +40,12 @@ This extension does not work on Chrome internal pages, such as:
 - `chrome://extensions/`
 - `chrome://settings/`
 
-These pages are restricted by Chrome's security policies.
+Chrome's security policies restrict these pages.
 
 ## Release Notes
 
-## v2.0
-- Feature update: Weather in Tokyo is shown via alert using OpenWeatherMap API.
+### v2.0
+- Feature update: Weather in Tokyo is shown via alert using the OpenWeatherMap API.
 
-## v1.0
-- Initial release: Simple alert message shown when the icon is clicked.
+### v1.0
+- Initial release: A Simple alert message is shown when the icon is clicked.

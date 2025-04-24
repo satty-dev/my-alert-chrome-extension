@@ -1,0 +1,53 @@
+# Alert Extension for Chrome
+
+A simple Chrome extension that shows a JavaScript alert when the extension icon is clicked. This project is a basic introduction to Chrome extension development using Manifest V3.
+
+---
+
+## Features
+
+- Shows an alert when the extension icon is clicked
+- Built with Manifest V3
+- Uses `chrome.scripting.executeScript()`
+
+---
+
+## How to Add the Extension
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/your-username/alert-extension.git
+   ```
+2. Open chrome://extensions/ in Chrome.
+3. Enable Developer mode and click Load unpacked.
+4. Select the extension folder.
+5. The icon should now appear in your Chrome toolbar.
+
+---
+
+## How to Use
+
+1. Open any website (e.g. https://www.google.com).
+2. Click the extension icon.
+3. An alert will appear with the message:
+`"Hello! This is an alert from your Chrome extension."`
+
+---
+
+## Known Limitations
+
+This extension does not work on Chrome internal pages such as:
+
+- `chrome://extensions/`
+- `chrome://settings/`
+
+These pages are restricted by Chrome's security policies.
+
+---
+
+## Release Notes
+
+### v1.0.0
+
+- Initial release
+- Alerts displayed when the icon is clicked

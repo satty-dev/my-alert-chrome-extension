@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Alert Extension",
-  "version": "1.0",
-  "description": "A Chrome extension that shows an alert when the icon is clicked.",
+  "name": "Weather Alert Extension",
+  "version": "2.0",
+  "description": "Displays today's weather in an alert when the icon is clicked.",
   "action": {
     "default_icon": "icon.png",
     "default_title": "Click to show alert"
@@ -10,6 +10,11 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["scripting"],
-  "host_permissions": ["<all_urls>"]
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://api.openweathermap.org/"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }

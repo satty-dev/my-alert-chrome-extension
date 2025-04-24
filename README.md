@@ -14,7 +14,7 @@ A simple Chrome extension that shows a JavaScript alert when the extension icon 
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/alert-extension.git
+   git clone https://github.com/satty-dev/my-alert-chrome-extension.git
    ```
 2. Open `chrome://extensions/` in Chrome.
 3. Enable Developer mode and click Load unpacked.
@@ -24,7 +24,7 @@ A simple Chrome extension that shows a JavaScript alert when the extension icon 
 
 ## How to Use
 
-1. Open any website (e.g. https://www.google.com).
+1. Open any website (e.g., https://www.google.com).
 2. Click the extension icon.
 3. An alert will appear with the message:
 `"Hello! This is an alert from your Chrome extension."`
@@ -32,7 +32,7 @@ A simple Chrome extension that shows a JavaScript alert when the extension icon 
 
 ## Known Limitations
 
-This extension does not work on Chrome internal pages such as:
+This extension does not work on Chrome internal pages, such as:
 
 - `chrome://extensions/`
 - `chrome://settings/`
@@ -42,7 +42,7 @@ These pages are restricted by Chrome's security policies.
 
 ## Release Notes
 
-### v1.0.0
+### v1.0
 
 - Initial release
 - A simple alert message is displayed when the icon is clicked
